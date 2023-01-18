@@ -1,0 +1,14 @@
+.cardTarget {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+  padding: 20px;
+  margin: 20px;
+}
+
+.card-body .card-text {
+  justify-content: center;
+  align-content: center;
+}
