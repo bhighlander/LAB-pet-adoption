@@ -1,3 +1,4 @@
+//pets object array
 const pets = [
   {
     id: 1,
@@ -272,20 +273,78 @@ const pets = [
   },
 ];
 
-const cardTarget = document.querySelector(".cardTarget");
+// default card view
+// const defaultRender = document.querySelector(".cardTarget");
+// let domString = "";
 
-let domString = "";
+// for (const pet of pets) {
+//   domString += `<div class="card" style="width: 18rem;">
+//   <h2>${pet.name}</h2>
+//   <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
+//   <div class="card-body">
+//     <p class="card-text">${pet.color}</p>
+//     <p class="card-text">${pet.specialSkill}</p>
+//   </div>
+//   <div class="card-body">${pet.type}</div>
+// </div>`;
+// }
 
-for (const pet of pets) {
-  domString += `<div class="card" style="width: 18rem;">
-  <h2>${pet.name}</h2>
-  <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
-  <div class="card-body">
-    <p class="card-text">${pet.color}</p>
-    <p class="card-text">${pet.specialSkill}</p>
-  </div>
-  <div class="card-body">${pet.type}</div>
-</div>`;
+// defaultRender.innerHTML = domString;
+
+//render to dom with selector
+
+const renderToDom = (divId, htmlToRender) => {
+  const selectedDiv = document.querySelector(divId);
+  selectedDiv.innerHTML = htmlToRender;
+};
+
+const cardSelect = (array) => {
+  let domString = "";
+  for (const pet of array) {
+    domString += `<h2>${pet.name}</h2>
+    <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
+    <div class="card-body">
+      <p class="card-text">${pet.color}</p>
+      <p class="card-text">${pet.specialSkill}</p>
+    </div>
+    <div class="card-body">${pet.type}</div>
+  </div>`;
+  }
+  renderToDom("#cardTarget", domString);
+};
+
+// filter pets by type
+const filter = (array, petType) => {
+  const petArray = [];
+
+  for (const pet of array) {
+    if (pet.type === petType) {
+      petArray.push(pet);
+    }
+  }
+  return petArray;
 }
 
-cardTarget.innerHTML = domString;
+const showCats = document.querySelector("#cats");
+const showDogs = document.querySelector("#dogs");
+const showDinos = document.querySelector("#dinos");
+const showAll = document.querySelector("#allPets");
+
+showCats.addEventListener('click', () => {
+  const cats = filter(pets, "cat");
+  cardSelect(cats);
+});
+
+showDogs.addEventListener('click', () => {
+  const dogs = filter(pets, "dog");
+  cardSelect(dogs);
+});
+
+showDinos.addEventListener('click', () => {
+  const dinos = filter(pets, "dino");
+  cardSelect(dinos);
+});
+
+showAll.addEventListener('click', () => {
+  cardSelect(pets);
+});
