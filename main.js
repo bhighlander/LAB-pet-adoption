@@ -7,7 +7,7 @@ const pets = [
     specialSkill: "Gives sincere apologies.",
     type: "cat",
     imageUrl:
-      "http://kittentoob.com/wp-content/uploads/2015/06/funny-cat-with-a-towel.jpg",
+      "https://vetmedcenterslc.com/wp-content/uploads/2022/04/cat-sneezing.jpg",
   },
   {
     id: 2,
@@ -16,7 +16,7 @@ const pets = [
     specialSkill:
       "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
     type: "dino",
-    imageUrl: "http://www.jozilife.co.za/wp-content/uploads/The-Dino-Expo.jpg",
+    imageUrl: "https://visittrivalley.com/wp-content/uploads/2020/10/Dino-Header-768x512-1-e1602603065544.jpg",
   },
   {
     id: 3,
@@ -25,7 +25,7 @@ const pets = [
     specialSkill: "Can prove he is a real man by drinking whiskey.",
     type: "dino",
     imageUrl:
-      "https://mydinosaurs.com/wp-content/uploads/2017/02/2-3-600x400.jpg",
+      "https://news.utexas.edu/wp-content/uploads/2018/06/dino_tongue-600x400-c-default.jpg",
   },
   {
     id: 4,
@@ -34,7 +34,7 @@ const pets = [
     specialSkill: "Burps minimally.",
     type: "dog",
     imageUrl:
-      "http://cdn.akc.org/content/article-body-image/funny-pembroke_welsh_corgi.jpg",
+      "https://labyes.com/wp-content/uploads/2018/11/dreamstime_xl_74929292_baja-600x400.jpg",
   },
   {
     id: 5,
@@ -43,7 +43,7 @@ const pets = [
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "cat",
     imageUrl:
-      "http://www.catster.com/wp-content/uploads/2017/08/A-fluffy-cat-looking-funny-surprised-or-concerned.jpg",
+      "https://s1.1zoom.me/prev/559/Cats_Kittens_Ginger_color_558288_600x400.jpg",
   },
   {
     id: 6,
@@ -52,7 +52,7 @@ const pets = [
     specialSkill: "Can read (but cannot understand) Hebrew.",
     type: "dog",
     imageUrl:
-      "https://upload.wikimedia.org/wikipedia/commons/7/7e/Basset_Hound_600.jpg",
+      "https://static01.nyt.com/images/2022/05/10/science/28DOGS-BEHAVIOR1/28DOGS-BEHAVIOR1-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
   },
   {
     id: 7,
@@ -61,7 +61,7 @@ const pets = [
     specialSkill: "Able to stop chewing ice or whistling on request.",
     type: "cat",
     imageUrl:
-      "https://i.pinimg.com/originals/9d/da/3e/9dda3e5fd2b9886fc3d13ee47f52e8a0.jpg",
+      "https://static01.nyt.com/images/2021/09/14/science/07CAT-STRIPES/07CAT-STRIPES-jumbo.jpg?quality=75&auto=webp",
   },
   {
     id: 8,
@@ -70,7 +70,7 @@ const pets = [
     specialSkill: "Comfortable in the outdoors for up to eight hours.",
     type: "dino",
     imageUrl:
-      "http://www.theouthousers.com/images/jck//ThanosCopter/news/grumpasaur.jpg",
+      "http://dickinsonmuseumcenter.com/wp-content/uploads/2022/11/Daspletosaurus-1400w-600x400.jpg",
   },
   {
     id: 9,
@@ -79,7 +79,7 @@ const pets = [
     specialSkill: "Adept at talking self and others out of fights.",
     type: "cat",
     imageUrl:
-      "https://tailandfur.com/wp-content/uploads/2015/09/40-Amazing-Cat-Funny-Moment-Pictures-Feature-Image.jpg",
+      "https://www.1zoom.me/prev/306/305171.jpg",
   },
   {
     id: 10,
@@ -88,7 +88,7 @@ const pets = [
     specialSkill: "Listens attentively to boring stories.",
     type: "cat",
     imageUrl:
-      "https://i.pinimg.com/originals/04/54/92/0454926d39eeb420f4f01948e94e9e41.jpg",
+      "https://www.1zoom.me/prev/322/321833.jpg",
   },
   {
     id: 11,
@@ -97,7 +97,7 @@ const pets = [
     specialSkill: "Can be around food without staring creepily at it.",
     type: "dino",
     imageUrl:
-      "http://www.cantref.com/userfiles/events/walking%20dino.jpg?w=600",
+      "http://dickinsonmuseumcenter.com/wp-content/uploads/2021/01/Saurornitholestes_digging_Burrows_wahweap-600x400.jpg",
   },
   {
     id: 12,
@@ -116,7 +116,7 @@ const pets = [
       "Expertly quotes and recognizes dialogue from early seasons of The Simpsons.",
     type: "dog",
     imageUrl:
-      "http://1kjkdg1axrkd2g03cnboj761.wpengine.netdna-cdn.com/wp-content/uploads/2017/12/braydon-anderson-105552-e1512684107659.jpg",
+      "https://ontariospca.ca/wp-content/uploads/2018/12/Adopting-shelter-dog-600x400.jpg",
   },
   {
     id: 14,
@@ -125,7 +125,7 @@ const pets = [
     specialSkill: "Always up for dessert.",
     type: "cat",
     imageUrl:
-      "http://3.bp.blogspot.com/-RzIFLsIO-XQ/UFoMLOT66JI/AAAAAAAAVps/JRF98hdA9S8/s640/funny-cat-pictures-016-027.jpg",
+      "https://www.1zoom.me/prev/281/280847.jpg",
   },
   {
     id: 15,
@@ -134,7 +134,7 @@ const pets = [
     specialSkill: "Burps minimally.",
     type: "cat",
     imageUrl:
-      "http://cathumor.net/wp-content/uploads/2013/12/cat-humor-funny-karate-cat-2.jpg",
+      "https://media.nature.com/lw767/magazine-assets/d41586-020-02779-3/d41586-020-02779-3_18481780.jpg",
   },
   {
     id: 16,
@@ -143,7 +143,7 @@ const pets = [
     specialSkill: "Drives at a safe rate of speed in snow or rain.",
     type: "dino",
     imageUrl:
-      "https://images.readwrite.com/wp-content/uploads/2018/03/t-rex-dino-quiz-e1490854556549.jpg",
+      "https://mmo.aiircdn.com/452/62d7db9b99c94.jpg",
   },
   {
     id: 17,
@@ -152,7 +152,7 @@ const pets = [
     specialSkill:
       "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
     type: "cat",
-    imageUrl: "http://www.funnycatsite.com/pictures/Close_Up_Yawn.jpg",
+    imageUrl: "https://reviewed-com-res.cloudinary.com/image/fetch/s--MINrQ7hE--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_600/https://reviewed-production.s3.amazonaws.com/attachment/c4fd322e79ae4bb4/Ben%20Cat%202.jpg",
   },
   {
     id: 18,
@@ -161,7 +161,7 @@ const pets = [
     specialSkill: "Proficient in air guitar",
     type: "dino",
     imageUrl:
-      "https://www.nation.co.ke/image/view/-/4078922/highRes/1742693/-/maxw/600/-/1453yvh/-/DINO.jpg",
+      "https://www.westchesterfamily.com/wp-content/uploads/2022/04/BZ_Westchester_Advertorial3_600x400.png",
   },
   {
     id: 19,
@@ -170,7 +170,7 @@ const pets = [
     specialSkill: "Listens attentively to boring stories.",
     type: "dog",
     imageUrl:
-      "http://dailynewsdig.com/wp-content/uploads/2014/03/Creative-And-Funny-Dog-Stock-Photography-Pictures-2.jpg",
+      "https://media.istockphoto.com/id/539984562/photo/dog-playing-with-toy-or-bone.jpg?s=612x612&w=0&k=20&c=ZCAfdGOX4QVFFtxV0twzW7-Rsny4YlVMaoeZxjNx-m8=",
   },
   {
     id: 20,
@@ -178,7 +178,7 @@ const pets = [
     color: "Black",
     specialSkill: "Uses litter box at appropriate hours.",
     type: "cat",
-    imageUrl: "http://www.funnycatsite.com/pictures/Lazy_White_Cat.jpg",
+    imageUrl: "https://s1.1zoom.me/prev/587/Cats_Glance_586120_600x400.jpg",
   },
   {
     id: 21,
@@ -187,7 +187,7 @@ const pets = [
     specialSkill: "Owns a Nintendo Power Glove.",
     type: "dino",
     imageUrl:
-      "https://img.buzzfeed.com/buzzfeed-static/static/2015-11/2/12/enhanced/webdr15/anigif_enhanced-29802-1446485228-10.gif?crop=250:165;0,0&downsize=715",
+      "https://dinopark-bayern.de/app/uploads/2022/06/rocky_unedited-600x400.jpg",
   },
   {
     id: 22,
@@ -196,7 +196,7 @@ const pets = [
     specialSkill: "Is comfortable with jokes about his receding hairline.",
     type: "cat",
     imageUrl:
-      "http://funnyanimalphoto.com/wp-content/uploads/2013/08/cat_caught_mouse_thegatewaypundit.jpg",
+      "https://i.hurimg.com/i/hdn/75/600x400/5da6e153d3806c18308e2120.jpg",
   },
   {
     id: 23,
@@ -215,7 +215,7 @@ const pets = [
       "Participates in karaoke but does not force others to go out to karaoke.",
     type: "dog",
     imageUrl:
-      "http://www.dogbreedplus.com/dog_breeds/images/basset-hound-4.jpg",
+      "https://static01.nyt.com/images/2019/06/17/science/17DOGS/17DOGS-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
   },
   {
     id: 25,
@@ -224,7 +224,7 @@ const pets = [
     specialSkill: "Knows the words to 4 rap songs.",
     type: "cat",
     imageUrl:
-      "http://funbk.s3.amazonaws.com/wp-content/uploads/2016/06/funny-cat-video-which-will-make-you-laugh-louder.jpg",
+      "https://www.balisafarimarinepark.com/wp-content/uploads/2019/03/What-animals-belong-to-the-cat-family-600x400.jpg?p=8636",
   },
   {
     id: 26,
@@ -251,7 +251,7 @@ const pets = [
     specialSkill: "Dances when he has to.",
     type: "cat",
     imageUrl:
-      "https://tailandfur.com/wp-content/uploads/2016/03/40-Scary-and-Funny-Cat-Pictures-8.jpg",
+      "https://static01.nyt.com/images/2019/09/04/business/04chinaclone-01/merlin_160087014_de761d9a-4360-402d-a15b-ddeff775760d-articleLarge.jpg?quality=75&auto=webp&disable=upscale",
   },
   {
     id: 29,
@@ -269,27 +269,28 @@ const pets = [
     specialSkill: "Doesn’t get weirded out by the word “moist.”",
     type: "dino",
     imageUrl:
-      "http://lsae2.iypcdn.com/static//modules/uploads/photos/language1/dino-live-22.jpg?119",
+      "https://st.depositphotos.com/1829921/4920/i/450/depositphotos_49200069-stock-photo-realistic-model-of-dinosaur-tyrannosaurus.jpg",
   },
 ];
 
 // default card view
-// const defaultRender = document.querySelector(".cardTarget");
-// let domString = "";
+const defaultRender = document.querySelector("#cardTarget");
+let domString = "";
 
-// for (const pet of pets) {
-//   domString += `<div class="card" style="width: 18rem;">
-//   <h2>${pet.name}</h2>
-//   <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
-//   <div class="card-body">
-//     <p class="card-text">${pet.color}</p>
-//     <p class="card-text">${pet.specialSkill}</p>
-//   </div>
-//   <div class="card-body">${pet.type}</div>
-// </div>`;
-// }
+for (const pet of pets) {
+  domString += `<div class="card" style="width: 18rem;">
+  <h2>${pet.name}</h2>
+  <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
+  <div class="card-body">
+    <p class="card-text">${pet.color}</p>
+    <p class="card-text">${pet.specialSkill}</p>
+  </div>
+  <div class="card-body">${pet.type}</div>
+  <button type="button" class="btn" id="delete--?{pets.id}">Delete</button>
+</div>`;
+}
 
-// defaultRender.innerHTML = domString;
+defaultRender.innerHTML = domString;
 
 //render to dom with selector
 
@@ -301,13 +302,14 @@ const renderToDom = (divId, htmlToRender) => {
 const cardSelect = (array) => {
   let domString = "";
   for (const pet of array) {
-    domString += `<h2>${pet.name}</h2>
+    domString += `<div class="card" style="width: 18rem;"><h2>${pet.name}</h2>
     <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
     <div class="card-body">
       <p class="card-text">${pet.color}</p>
       <p class="card-text">${pet.specialSkill}</p>
     </div>
     <div class="card-body">${pet.type}</div>
+    <button type="button" class="btn" id="delete --?{pets.id}">Delete</button>
   </div>`;
   }
   renderToDom("#cardTarget", domString);
@@ -323,28 +325,28 @@ const filter = (array, petType) => {
     }
   }
   return petArray;
-}
+};
 
 const showCats = document.querySelector("#cats");
 const showDogs = document.querySelector("#dogs");
 const showDinos = document.querySelector("#dinos");
 const showAll = document.querySelector("#allPets");
 
-showCats.addEventListener('click', () => {
+showCats.addEventListener("click", () => {
   const cats = filter(pets, "cat");
   cardSelect(cats);
 });
 
-showDogs.addEventListener('click', () => {
+showDogs.addEventListener("click", () => {
   const dogs = filter(pets, "dog");
   cardSelect(dogs);
 });
 
-showDinos.addEventListener('click', () => {
+showDinos.addEventListener("click", () => {
   const dinos = filter(pets, "dino");
   cardSelect(dinos);
 });
 
-showAll.addEventListener('click', () => {
+showAll.addEventListener("click", () => {
   cardSelect(pets);
 });

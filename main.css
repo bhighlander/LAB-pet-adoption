@@ -1,21 +1,25 @@
-
-
-.btn {
- 
-  flex-direction: column;
+body {
+  display: flex;
+  justify-content: space-around;
   flex-wrap: wrap;
-  justify-content: center;
-  align-content: center;
-  border: 1px solid black;
-  
+ 
 }
 
-#cardtarget {
+.buttons {
+
+}
+
+.btn {
+  border: 1px solid black;
+ flex-direction: row;
+ margin: 20px;
+}
+
+#cardTarget {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
-  padding: 20px;
-  margin: 20px;
+  align-content: center;
+  margin: 10px;
 }
