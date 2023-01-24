@@ -16,7 +16,8 @@ const pets = [
     specialSkill:
       "Just picks the tomatoes off of a sandwich instead of requesting a whole new sandwich.",
     type: "dino",
-    imageUrl: "https://visittrivalley.com/wp-content/uploads/2020/10/Dino-Header-768x512-1-e1602603065544.jpg",
+    imageUrl:
+      "https://visittrivalley.com/wp-content/uploads/2020/10/Dino-Header-768x512-1-e1602603065544.jpg",
   },
   {
     id: 3,
@@ -78,8 +79,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Adept at talking self and others out of fights.",
     type: "cat",
-    imageUrl:
-      "https://www.1zoom.me/prev/306/305171.jpg",
+    imageUrl: "https://www.1zoom.me/prev/306/305171.jpg",
   },
   {
     id: 10,
@@ -87,8 +87,7 @@ const pets = [
     color: "Blue",
     specialSkill: "Listens attentively to boring stories.",
     type: "cat",
-    imageUrl:
-      "https://www.1zoom.me/prev/322/321833.jpg",
+    imageUrl: "https://www.1zoom.me/prev/322/321833.jpg",
   },
   {
     id: 11,
@@ -124,8 +123,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Always up for dessert.",
     type: "cat",
-    imageUrl:
-      "https://www.1zoom.me/prev/281/280847.jpg",
+    imageUrl: "https://www.1zoom.me/prev/281/280847.jpg",
   },
   {
     id: 15,
@@ -142,8 +140,7 @@ const pets = [
     color: "Brown",
     specialSkill: "Drives at a safe rate of speed in snow or rain.",
     type: "dino",
-    imageUrl:
-      "https://mmo.aiircdn.com/452/62d7db9b99c94.jpg",
+    imageUrl: "https://mmo.aiircdn.com/452/62d7db9b99c94.jpg",
   },
   {
     id: 17,
@@ -152,7 +149,8 @@ const pets = [
     specialSkill:
       "Does not freak out if you haven’t seen his favorite movie (The Big Lebowski).",
     type: "cat",
-    imageUrl: "https://reviewed-com-res.cloudinary.com/image/fetch/s--MINrQ7hE--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_600/https://reviewed-production.s3.amazonaws.com/attachment/c4fd322e79ae4bb4/Ben%20Cat%202.jpg",
+    imageUrl:
+      "https://reviewed-com-res.cloudinary.com/image/fetch/s--MINrQ7hE--/b_white,c_fill,cs_srgb,f_auto,fl_progressive.strip_profile,g_center,h_400,q_auto,w_600/https://reviewed-production.s3.amazonaws.com/attachment/c4fd322e79ae4bb4/Ben%20Cat%202.jpg",
   },
   {
     id: 18,
@@ -309,7 +307,7 @@ const cardSelect = (array) => {
       <p class="card-text">${pet.specialSkill}</p>
     </div>
     <div class="card-body">${pet.type}</div>
-    <button type="button" class="btn" id="delete --?{pets.id}">Delete</button>
+    <button type="button" class="btn" id="delete--${pet.id}">Delete</button>
   </div>`;
   }
   renderToDom("#cardTarget", domString);
@@ -350,3 +348,31 @@ showDinos.addEventListener("click", () => {
 showAll.addEventListener("click", () => {
   cardSelect(pets);
 });
+
+//create pet
+
+const createPet = (event) => {
+  event.preventDefault();
+
+  const name = document.querySelector("#name");
+  const color = document.querySelector("#color");
+  const specialSkill = document.querySelector("#skill");
+  const type = document.querySelector("#type");
+  const imageUrl = document.querySelector("#image");
+
+  const newPet = {
+    id: pets.length + 1,
+    name: name.value,
+    color: color.value,
+    specialSkill: specialSkill.value,
+    type: type.value,
+    imageUrl: imageUrl.value,
+  };
+
+  pets.push(newPet);
+  console.log(pets);
+  cardSelect(pets);
+};
+
+const addPet = document.querySelector("#submit");
+addPet.addEventListener("click", createPet);
