@@ -271,26 +271,7 @@ const pets = [
   },
 ];
 
-// default card view
-const defaultRender = document.querySelector("#cardTarget");
-let domString = "";
-
-for (const pet of pets) {
-  domString += `<div class="card" style="width: 18rem;">
-  <h2>${pet.name}</h2>
-  <img src="${pet.imageUrl}" class="card-img-top" alt="${pet.name}">
-  <div class="card-body">
-    <p class="card-text">${pet.color}</p>
-    <p class="card-text">${pet.specialSkill}</p>
-  </div>
-  <div class="card-body">${pet.type}</div>
-  <button type="button" class="btn" id="delete--?{pets.id}">Delete</button>
-</div>`;
-}
-
-defaultRender.innerHTML = domString;
-
-//render to dom with selector
+//function to render selected cards to dom
 
 const renderToDom = (divId, htmlToRender) => {
   const selectedDiv = document.querySelector(divId);
@@ -313,7 +294,7 @@ const cardSelect = (array) => {
   renderToDom("#cardTarget", domString);
 };
 
-// filter pets by type
+// filter pets by type using type buttons
 const filter = (array, petType) => {
   const petArray = [];
 
@@ -349,7 +330,7 @@ showAll.addEventListener("click", () => {
   cardSelect(pets);
 });
 
-//create pet
+//create new pet using form
 
 const createPet = (event) => {
   event.preventDefault();
@@ -376,3 +357,27 @@ const createPet = (event) => {
 
 const addPet = document.querySelector("#submit");
 addPet.addEventListener("click", createPet);
+
+
+//deleting card 
+
+cardTarget.addEventListener ("click", (event) => {
+  if (event.target.id.includes("delete")){
+  
+  const [trash, petId] = event.target.id.split("--");
+  
+  const petIndex = pets.findIndex((obj) => obj.id === Number(petId));
+  pets.splice(petIndex, 1);
+  
+  cardSelect(pets);
+  
+  }
+  });
+  
+//default to all pets card view on load
+
+  const defaultView = () => {
+  cardSelect(pets);
+  };
+
+defaultView(pets);
