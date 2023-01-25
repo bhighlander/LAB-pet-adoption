@@ -350,7 +350,7 @@ const createPet = (event) => {
     imageUrl: imageUrl.value,
   };
 
-  pets.push(newPet);
+  pets.unshift(newPet);
   console.log(pets);
   cardSelect(pets);
 };
