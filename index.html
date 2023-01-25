@@ -13,8 +13,8 @@
     <link rel="stylesheet" href="main.css" />
     <title>Pet Adoption Page</title>
   </head>
-  <div>
 
+  <body>
     <!-- class selection buttons  -->
     <div class="buttons">
       <button class="btn allPets" id="allPets">All Pets</button>
@@ -23,71 +23,77 @@
       <button class="btn dinos" id="dinos">Dinos</button>
     </div>
 
-<!-- forms for new pet  -->
-<form>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Name</label>
-  <input
-    type="text"
-    class="form-control"
-    id="name"
-    placeholder="Enter name"
-    required
-  />
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Color</label>
-  <input
-    type="text"
-    class="form-control"
-    id="color"
-    placeholder="Enter color"
-    required
-  />
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label"
-    >Special Skill</label
-  >
-  <input
-    type="text"
-    class="form-control"
-    id="skill"
-    placeholder="Enter a special skill"
-    required
-  />
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Type</label>
-  <input
-    type="text"
-    class="form-control"
-    id="type"
-    placeholder="Enter pet type"
-    required
-  />
-</div>
-<div class="mb-3">
-  <label for="exampleFormControlInput1" class="form-label">Image URL</label>
-  <input
-    type="url"
-    class="form-control"
-    id="image"
-    placeholder="Enter image URL"
-    required
-  />
+    <!-- forms for new pet  -->
+    <form>
+      <div class="form-floating form-control-sm mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="name"
+          placeholder="Enter name"
+          required
+        />
+        <label for="exampleFormControlInput1" class="form-label">Name</label>
+      </div>
+      <div class="form-floating form-control-sm mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="color"
+          placeholder="Enter color"
+          required
+        />
+        <label for="exampleFormControlInput1" class="form-label">Color</label>
+      </div>
+      <div class="form-floating form-control-sm mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="skill"
+          placeholder="Enter a special skill"
+          required
+        />
+        <label for="exampleFormControlInput1" class="form-label"
+          >Special Skill</label
+        >
+      </div>
+      <div class="form-floating form-control-sm mb-3">
+        <input
+          type="text"
+          class="form-control"
+          id="type"
+          placeholder="Enter pet type"
+          required
+        />
+        <label for="exampleFormControlInput1" class="form-label">Type</label>
+      </div>
+      <div class="form-floating form-control-sm mb-3">
+        <input
+          type="url"
+          class="form-control"
+          id="image"
+          placeholder="Enter image URL"
+          required
+        />
+        <label for="exampleFormControlInput1" class="form-label"
+          >Image URL</label
+        >
 
-<!-- submit button -->
-<button type="button" class="btn btn-secondary btn-lg" id="submit">Submit</button>
-</form>
-    <!-- div for pet cards -->
-    <div id="cardTarget"></div>
-  
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-      crossorigin="anonymous"
-    ></script>
-    <script src="main.js"></script>
+        <!-- submit button -->
+        <button type="button" class="btn btn-secondary btn-lg" id="submit">
+          Submit
+        </button>
+
+        <!-- div for pet cards -->
+        <div id="cardTarget"></div>
+
+        <script
+          src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+          integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+          crossorigin="anonymous"
+        ></script>
+        <script src="main.js"></script>
+      </div>
+    </form>
   </body>
 </html>
